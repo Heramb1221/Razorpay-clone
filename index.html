@@ -7,6 +7,27 @@
     <title>Razorpay Clone</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <style>
+        .corefeaturesection {
+            background-size: 100% 100%;
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+        }
+
+        .moveImage {
+            animation: 10s infinite linear moveCompany;
+        }
+
+        @keyframes moveCompany {
+            0% {
+                top: 0%;
+            }
+            100% {
+                top: -50%;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -696,6 +717,93 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Features -->
+    <section class="w-full bg-[url(/images/core-features-sectionBg.svg)] bg-no-repeat bg-cover bg-center mt-14 relative corefeaturesection">
+        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+            <h2 class="text-white font-mullish font-bold text-2xl text-center">Features</h2>
+            <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
+            <p class="font-mullish text-center max-w-[450px] text-white mx-auto">Empower your business with all the tools to accept online payments and provide the best customer experience</p>
+
+            <div class="grid grid-cols-4 gap-[2rem] mt-8">
+                <!-- Card 1 -->
+                <div>
+                    <img src="./images/instant-activation-icon.svg" alt="" loading="lazy">
+                    <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
+                    <p class="font-mullish text-white opacity-[80px]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div>
+                    <img src="./images/easy-integration.svg" alt="" loading="lazy">
+                    <h3 class="font-mullish text-white text-lg font-bold my-4">Easy Integration</h3>
+                    <p class="font-mullish text-white opacity-[80px]">With plugins for all major platforms and languages, integrate and go live with Razorpay in less than an hour.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div>
+                    <img src="./images/api-driven-icon.svg" alt="" loading="lazy">
+                    <h3 class="font-mullish text-white text-lg font-bold my-4">API Driven</h3>
+                    <p class="font-mullish text-white opacity-[80px]">Build your business for scale with our complete API-driven automation that requires zero manual intervention.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div>
+                    <img src="./images/payment-modes.svg" alt="" loading="lazy">
+                    <h3 class="font-mullish text-white text-lg font-bold my-4">100+ payment modes</h3>
+                    <p class="font-mullish text-white opacity-[80px]">Offer your customers the luxury of all payment modes including Credit/Debit cards, Netbanking, UPI, Wallets etc.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div>
+                    <img src="./images/simple-pricing.svg" alt="" loading="lazy">
+                    <h3 class="font-mullish text-white text-lg font-bold my-4">Simple Pricing</h3>
+                    <p class="font-mullish text-white opacity-[80px]">Our innovative payment solutions with competetive pricing make payments simpler.</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div>
+                    <img src="./images/industry-support-icon.svg" alt="" loading="lazy">
+                    <h3 class="font-mullish text-white text-lg font-bold my-4">Best In Industry Support</h3>
+                    <p class="font-mullish text-white opacity-[80px]">Always available email, phone and chat based support to help you in your every step.</p>
+                </div>
+
+                <!-- Card 7 -->
+                <div>
+                    <img src="./images/dashboard-reporting-icon.svg" alt="" loading="lazy">
+                    <h3 class="font-mullish text-white text-lg font-bold my-4">Dashboard Reporting</h3>
+                    <p class="font-mullish text-white opacity-[80px]">Real-time data and insights on your Razorpay Dashboard to make informed business decisions.</p>
+                </div>
+
+                <!-- Card 8 -->
+                <div>
+                    <img src="./images/secure-icon.svg" alt="" loading="lazy">
+                    <h3 class="font-mullish text-white text-lg font-bold my-4">Secure</h3>
+                    <p class="font-mullish text-white opacity-[80px]">PCI DSS Level 1 compaint solution which removes your burden of regulatory compliance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Razorpay Section -->
+    <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-10">
+        <div class="relative flex flex-row w-11/12 max-w-[1080px] mx-auto pt-4">
+            <!-- left part -->
+            <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+                <h2 class="font-mullish font-bold text-2xl text-deepBlueHead">Join the 50,00,000+ businesses using Razorpay</h2>
+                <div class="w-6 h-1 bg-greenLight mb-10 my-4"></div>
+                <p class="font-mullish opacity-80">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
+                <p class="font-mullish mt-6 opacity-80">Focus on your business while we handle the complexities of payments for you.</p>
+            </div>
+
+            <!-- right part -->
+            <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+                <div style="background: linear-gradient(180deg, #f4f8ff, #fff0);" class="absolute w-full h-[150px] top-0 z-50"></div>
+                <img src="./images/comanies.png" alt="" loading="lazy" class="absolute object-cover moveImage">
+                <div style="background: linear-gradient(0deg, #f4f8ff, #fff0);" class="absolute w-full h-[150px] bottom-0 z-50"></div>
             </div>
         </div>
     </section>
